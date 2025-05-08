@@ -1,0 +1,67 @@
+{
+  "name": "Celestian Api's",
+  "version": "Izumi UI",
+  "description": "Celestian Api's creada por Izumi-xyz para su usó públicamente",
+  "header": {
+    "status": "Activo!",
+    "imageSrc": [
+      "https://iili.io/3eu7rx9.jpg"
+    ],
+    "imageSize": {
+      "mobile": "80%",
+      "tablet": "40%",
+      "desktop": "40%"
+    }
+  },
+  "apiSettings": {
+    "creator": "Izumi"
+  },
+  "links": [
+    {
+      "name": "Source Code",
+      "url": "https://github.com/Izumi-kzx"
+    },
+    {
+      "name": "Contact Me",
+      "url": "https://wa.me/59168683798"
+    }
+  ],
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text="
+        },
+        {
+          "name": "HydroMind",
+          "desc": "Talk with hydromind",
+          "path": "/ai/hydromind?text=&model=",
+          "innerDesc": "See the list of supported AI models here: https://mind.hydrooo.web.id"
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba"
+        }
+      ]
+    },
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q="
+        }
+      ]
+    }
+  ]
+}
