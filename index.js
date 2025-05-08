@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const fs = require('fs');
 const cors = require('cors');
 const path = require('path');
+require('./api/download/instagram')(app);
 
 const app = express();
 const PORT = process.env.PORT || 4000;
