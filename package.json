@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^1.6.8",
     "body-parser": "^1.20.3",
-    "cheerio": "^1.0.0",
+    "cheerio": "npm:cheerio@1.0.0-rc.12",
     "cors": "^2.8.5",
     "chalk": "^4.1.2",
     "express": "^4.19.2",
