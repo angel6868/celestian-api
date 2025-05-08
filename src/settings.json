@@ -28,16 +28,16 @@
   ],
   "categories": [
     {
-      "name": "AI (Artificial Intelligence)",
+      "name": "Inteligencia Artificial",
       "items": [
         {
           "name": "LuminAI",
-          "desc": "Talk with luminai",
+          "desc": "Habla con LuminAI",
           "path": "/ai/luminai?text="
         },
         {
           "name": "HydroMind",
-          "desc": "Talk with hydromind",
+          "desc": "Habla con HydroMind",
           "path": "/ai/hydromind?text=&model=",
           "innerDesc": "See the list of supported AI models here: https://mind.hydrooo.web.id"
         }
@@ -54,12 +54,12 @@
       ]
     },
     {
-      "name": "Search Tools",
+      "name": "Search",
       "items": [
         {
           "name": "YouTube",
-          "desc": "Video search",
-          "path": "/search/youtube?q="
+          "desc": "Búsquedas en Youtube",
+          "path": "/search/youtube?text="
         }
       ]
     }
