@@ -26,42 +26,51 @@
       "url": "https://wa.me/59168683798"
     }
   ],
-  "categories": [
-    {
-      "name": "Inteligencia Artificial",
-      "items": [
-        {
-          "name": "LuminAI",
-          "desc": "Habla con LuminAI",
-          "path": "/ai/luminai?text="
-        },
-        {
-          "name": "HydroMind",
-          "desc": "Habla con HydroMind",
-          "path": "/ai/hydromind?text=&model=",
-          "innerDesc": "See the list of supported AI models here: https://mind.hydrooo.web.id"
-        }
-      ]
-    },
-    {
-      "name": "Random",
-      "items": [
-        {
-          "name": "Blue Archive",
-          "desc": "Blue Archive Random Images",
-          "path": "/random/ba"
-        }
-      ]
-    },
-    {
-      "name": "Search",
-      "items": [
-        {
-          "name": "YouTube",
-          "desc": "Búsquedas en Youtube",
-          "path": "/search/youtube?text="
-        }
-      ]
-    }
-  ]
-}
+"categories": [
+  {
+    "name": "Inteligencia Artificial",
+    "items": [
+      {
+        "name": "LuminAI",
+        "desc": "Habla con LuminAI",
+        "path": "/ai/luminai?text="
+      },
+      {
+        "name": "HydroMind",
+        "desc": "Habla con HydroMind",
+        "path": "/ai/hydromind?text=&model=",
+        "innerDesc": "See the list of supported AI models here: https://mind.hydrooo.web.id"
+      }
+    ]
+  },
+  {
+    "name": "Random",
+    "items": [
+      {
+        "name": "Blue Archive",
+        "desc": "Blue Archive Random Images",
+        "path": "/random/ba"
+      }
+    ]
+  },
+  {
+    "name": "Search",
+    "items": [
+      {
+        "name": "YouTube",
+        "desc": "Búsquedas en Youtube",
+        "path": "/search/youtube?text="
+      }
+    ]
+  },
+  {
+    "name": "Downloader",
+    "items": [
+      {
+        "name": "Instagram",
+        "desc": "Descarga fotos y videos de Instagram",
+        "path": "/download/instagram?url="
+      }
+    ]
+  }
+]
